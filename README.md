@@ -1,5 +1,5 @@
-## Nodejs+Express, Apollo+Graphql, 
-## Docker+Postgres+Prisma + JWT
+# Nodejs + Express + Apollo + Graphql
+## Docker + Postgres + Prisma + JWT
 > A small project for test graphql CRUD operations using threaded app
 
 ### Tool Needed :
