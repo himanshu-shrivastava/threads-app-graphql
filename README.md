@@ -9,14 +9,28 @@
 ## Installation :
 
 > Clone the project
-
-> `npm install`
-
-> `docker compose up -d` (It will create postgres image inside docker)
-
+````bash
+npm install
+````
+> Create postgres image inside docker using 
+````bash
+docker compose up -d
+````
 > Copy `.env.example` to `.env` and update the credentials from `docker-compose.yml`
-
->`npm run dev`
+````bash
+cp .env.example .env
+````
+````bash
+npm run dev
+````
+## docker CLI commands for database access (Terminal)
+````
+docker ps
+docket exec -it <postgres_container_id>
+su postgress
+psql
+````
+`\l`  `\c`  `\d`  `\x` 
 
 ## Refernces :
 
